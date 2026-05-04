@@ -1,0 +1,440 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:74a03ddf-b5ef-4701-ac10-9190abd7bc1b#"
+     xml:base="urn:webprotege:ontology:74a03ddf-b5ef-4701-ac10-9190abd7bc1b"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ciberseguridad="http://www.miOntologia.org/ciberseguridad/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:74a03ddf-b5ef-4701-ac10-9190abd7bc1b"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R9xgaxUqgspqpixxNxOQLJW -->
+
+    <owl:ObjectProperty rdf:about="http://www.miOntologia.org/ciberseguridad/R9xgaxUqgspqpixxNxOQLJW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>protegido_Por</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RB0ZgbQ0yPCVpVyNdshO4LS -->
+
+    <owl:ObjectProperty rdf:about="http://www.miOntologia.org/ciberseguridad/RB0ZgbQ0yPCVpVyNdshO4LS">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.miOntologia.org/ciberseguridad/RDHwPXgbQXWpH0UKgopajIY"/>
+        <rdfs:range rdf:resource="http://www.miOntologia.org/ciberseguridad/R8Wi4T24hNiTDXC5CoeEY08"/>
+        <rdfs:label>requiere</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RBxCs9xQroGLtZV2dT4uuQD -->
+
+    <owl:ObjectProperty rdf:about="http://www.miOntologia.org/ciberseguridad/RBxCs9xQroGLtZV2dT4uuQD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.miOntologia.org/ciberseguridad/RBs5tXOterZvLtU4cqtt61T"/>
+        <rdfs:range rdf:resource="http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4"/>
+        <rdfs:label>afecta</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RCmC5KAGhzlIqwrWC84Bgaf -->
+
+    <owl:ObjectProperty rdf:about="http://www.miOntologia.org/ciberseguridad/RCmC5KAGhzlIqwrWC84Bgaf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.miOntologia.org/ciberseguridad/R8Wi4T24hNiTDXC5CoeEY08"/>
+        <rdfs:range rdf:resource="http://www.miOntologia.org/ciberseguridad/RBs5tXOterZvLtU4cqtt61T"/>
+        <rdfs:label>mitiga</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R9FOLoFMzuulIiSclRJDij9 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.miOntologia.org/ciberseguridad/R9FOLoFMzuulIiSclRJDij9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.miOntologia.org/ciberseguridad/RBs5tXOterZvLtU4cqtt61T"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>nivelRiesgo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RCbiG3etFT93RyZautj1CVB -->
+
+    <owl:DatatypeProperty rdf:about="http://www.miOntologia.org/ciberseguridad/RCbiG3etFT93RyZautj1CVB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>criticidad</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RgcErQMpruUTvU2XqREVN5 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.miOntologia.org/ciberseguridad/RgcErQMpruUTvU2XqREVN5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label>fechaDetección</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R6eYpT52Fl0oIICHtRuwGe -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/R6eYpT52Fl0oIICHtRuwGe">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/R8Wi4T24hNiTDXC5CoeEY08"/>
+        <rdfs:label>Autenticación_Doble_Factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R72kaSChG6BAEproptLsdXp -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/R72kaSChG6BAEproptLsdXp">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/R8Wi4T24hNiTDXC5CoeEY08"/>
+        <rdfs:label>Antivirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R7xxtSkJcx3tsl7mXge3uKK -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/R7xxtSkJcx3tsl7mXge3uKK">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RBs5tXOterZvLtU4cqtt61T"/>
+        <rdfs:label>Phishing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R8U8dgrsa0e6KMOhgTQIfnY -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/R8U8dgrsa0e6KMOhgTQIfnY">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF"/>
+        <rdfs:label>Configuración_Incorrecta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R8Wi4T24hNiTDXC5CoeEY08 -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/R8Wi4T24hNiTDXC5CoeEY08">
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RBs5tXOterZvLtU4cqtt61T"/>
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RDHwPXgbQXWpH0UKgopajIY"/>
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4"/>
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF"/>
+        <rdfs:label>Control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R8aKToCbzTBwknMyUhCtmCS -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/R8aKToCbzTBwknMyUhCtmCS">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDHwPXgbQXWpH0UKgopajIY"/>
+        <rdfs:label>Política_Acceso</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R8bSMJoQGKB58R2p7czaTYq -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/R8bSMJoQGKB58R2p7czaTYq">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RBs5tXOterZvLtU4cqtt61T"/>
+        <rdfs:label>Malware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R8xchn6vNlQUF9luvMUtMC6 -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/R8xchn6vNlQUF9luvMUtMC6">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDHwPXgbQXWpH0UKgopajIY"/>
+        <rdfs:label>Política_Backup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R9rXYoy2baHIMGg2fK3FXaK -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/R9rXYoy2baHIMGg2fK3FXaK">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4"/>
+        <rdfs:label>Servidor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RBC3q36UIYQD12TnMOw7aoJ -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RBC3q36UIYQD12TnMOw7aoJ">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4"/>
+        <rdfs:label>Base_Datos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RBRBfRkIZKcPa5d8JM6V0fL -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RBRBfRkIZKcPa5d8JM6V0fL">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4"/>
+        <rdfs:label>Cuenta_Correo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RBYxEpCMHSUeH1BIdedQTiV -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RBYxEpCMHSUeH1BIdedQTiV">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF"/>
+        <rdfs:label>Software_Desactualizado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RBs5tXOterZvLtU4cqtt61T -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RBs5tXOterZvLtU4cqtt61T">
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RDHwPXgbQXWpH0UKgopajIY"/>
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4"/>
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF"/>
+        <rdfs:label>Amenaza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RCTsDqDy33UaFadgJrPEngN -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RCTsDqDy33UaFadgJrPEngN">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/R8Wi4T24hNiTDXC5CoeEY08"/>
+        <rdfs:label>Firewall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RCb9AUigcybr6FKyjHhGOaD -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RCb9AUigcybr6FKyjHhGOaD">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF"/>
+        <rdfs:label>Contraseña_Débil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RDHwPXgbQXWpH0UKgopajIY -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RDHwPXgbQXWpH0UKgopajIY">
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4"/>
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF"/>
+        <rdfs:label>Politica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4 -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RDY0llm2SGKIRT6wiVyTno4">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.miOntologia.org/ciberseguridad/R9xgaxUqgspqpixxNxOQLJW"/>
+                <owl:someValuesFrom rdf:resource="http://www.miOntologia.org/ciberseguridad/R8Wi4T24hNiTDXC5CoeEY08"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF"/>
+        <rdfs:label>Activo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RDnqnFI2aIhJiob1ptri79T -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RDnqnFI2aIhJiob1ptri79T">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDHwPXgbQXWpH0UKgopajIY"/>
+        <rdfs:label>Política_Contraseñas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RDtxhCNbBsXeoxCTS8zPVKF">
+        <rdfs:label>Vulnerabilidad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RkmLcDbDUMrpjE25ZTocli -->
+
+    <owl:Class rdf:about="http://www.miOntologia.org/ciberseguridad/RkmLcDbDUMrpjE25ZTocli">
+        <rdfs:subClassOf rdf:resource="http://www.miOntologia.org/ciberseguridad/RBs5tXOterZvLtU4cqtt61T"/>
+        <rdfs:label>Ataque_DDoS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/R8ePFp25egnJjH091Z32BpA -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/R8ePFp25egnJjH091Z32BpA">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/RCTsDqDy33UaFadgJrPEngN"/>
+        <ciberseguridad:RCmC5KAGhzlIqwrWC84Bgaf rdf:resource="http://www.miOntologia.org/ciberseguridad/RBgYoSGjzt6dKoFzfWMdj89"/>
+        <rdfs:label>FirewallCisco</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RBBbK4EaWCFpbDOyd6wPoq5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/RBBbK4EaWCFpbDOyd6wPoq5">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/R9rXYoy2baHIMGg2fK3FXaK"/>
+        <ciberseguridad:RB0ZgbQ0yPCVpVyNdshO4LS rdf:resource="http://www.miOntologia.org/ciberseguridad/RnBo9MNvjxQ6IMvCIGygpF"/>
+        <ciberseguridad:RCbiG3etFT93RyZautj1CVB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ciberseguridad:RCbiG3etFT93RyZautj1CVB>
+        <rdfs:label>Servidor_Web</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RBgYoSGjzt6dKoFzfWMdj89 -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/RBgYoSGjzt6dKoFzfWMdj89">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/R7xxtSkJcx3tsl7mXge3uKK"/>
+        <ciberseguridad:RBxCs9xQroGLtZV2dT4uuQD rdf:resource="http://www.miOntologia.org/ciberseguridad/RBlABMmynTWMChdL7ul1L1h"/>
+        <ciberseguridad:R9FOLoFMzuulIiSclRJDij9 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ciberseguridad:R9FOLoFMzuulIiSclRJDij9>
+        <rdfs:label>Phishing_Corporativo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RBl357E7dDJbsmPIsvuYZva -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/RBl357E7dDJbsmPIsvuYZva">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/RBYxEpCMHSUeH1BIdedQTiV"/>
+        <ciberseguridad:RgcErQMpruUTvU2XqREVN5 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-05-10T00:00:00</ciberseguridad:RgcErQMpruUTvU2XqREVN5>
+        <rdfs:label>CVE_2023_1234</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RBlABMmynTWMChdL7ul1L1h -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/RBlABMmynTWMChdL7ul1L1h">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/RBRBfRkIZKcPa5d8JM6V0fL"/>
+        <ciberseguridad:RB0ZgbQ0yPCVpVyNdshO4LS rdf:resource="http://www.miOntologia.org/ciberseguridad/RCd7T3HvHTQXuoVtFvsebjW"/>
+        <ciberseguridad:RCbiG3etFT93RyZautj1CVB rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ciberseguridad:RCbiG3etFT93RyZautj1CVB>
+        <rdfs:label>Cuenta_Email_Admin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RCd7T3HvHTQXuoVtFvsebjW -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/RCd7T3HvHTQXuoVtFvsebjW">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/RDnqnFI2aIhJiob1ptri79T"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.miOntologia.org/ciberseguridad/RB0ZgbQ0yPCVpVyNdshO4LS"/>
+                <owl:someValuesFrom rdf:resource="http://www.miOntologia.org/ciberseguridad/R6eYpT52Fl0oIICHtRuwGe"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Politica_Passwords_Empresa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RCp4w4JKhwpGRooO9bBMpgl -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/RCp4w4JKhwpGRooO9bBMpgl">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/R72kaSChG6BAEproptLsdXp"/>
+        <ciberseguridad:RCmC5KAGhzlIqwrWC84Bgaf rdf:resource="http://www.miOntologia.org/ciberseguridad/RDFsmwx97mkKSH7C9hxjIak"/>
+        <rdfs:label>Antivirus_Kaspersky</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RDFsmwx97mkKSH7C9hxjIak -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/RDFsmwx97mkKSH7C9hxjIak">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/R8bSMJoQGKB58R2p7czaTYq"/>
+        <ciberseguridad:RBxCs9xQroGLtZV2dT4uuQD rdf:resource="http://www.miOntologia.org/ciberseguridad/RBBbK4EaWCFpbDOyd6wPoq5"/>
+        <ciberseguridad:R9FOLoFMzuulIiSclRJDij9 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ciberseguridad:R9FOLoFMzuulIiSclRJDij9>
+        <rdfs:label>Malware_Ransomware</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RDv1r3ZsRuG5vAfJmyKHFDW -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/RDv1r3ZsRuG5vAfJmyKHFDW">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/R8U8dgrsa0e6KMOhgTQIfnY"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.miOntologia.org/ciberseguridad/RBxCs9xQroGLtZV2dT4uuQD"/>
+                <owl:someValuesFrom rdf:resource="http://www.miOntologia.org/ciberseguridad/RBC3q36UIYQD12TnMOw7aoJ"/>
+            </owl:Restriction>
+        </rdf:type>
+        <ciberseguridad:RgcErQMpruUTvU2XqREVN5 rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-15T00:00:00</ciberseguridad:RgcErQMpruUTvU2XqREVN5>
+        <rdfs:label>Config_DB_Insegura</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.miOntologia.org/ciberseguridad/RnBo9MNvjxQ6IMvCIGygpF -->
+
+    <owl:NamedIndividual rdf:about="http://www.miOntologia.org/ciberseguridad/RnBo9MNvjxQ6IMvCIGygpF">
+        <rdf:type rdf:resource="http://www.miOntologia.org/ciberseguridad/R8xchn6vNlQUF9luvMUtMC6"/>
+        <rdfs:label>Politica_Backup_Semanal</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
